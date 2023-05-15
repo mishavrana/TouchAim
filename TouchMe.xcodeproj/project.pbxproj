@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52988BF2A0D2BF1009B80E7 /* UserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52988BE2A0D2BF1009B80E7 /* UserStatus.swift */; };
+		A52988C12A0D4BF7009B80E7 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52988C02A0D4BF7009B80E7 /* TimerView.swift */; };
+		A57242682A0BBF360007247B /* OverlayModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57242672A0BBF360007247B /* OverlayModifier.swift */; };
+		A572426B2A0BC93F0007247B /* BottomPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A572426A2A0BC93F0007247B /* BottomPopupView.swift */; };
+		A572426D2A0BD0F70007247B /* RulsePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A572426C2A0BD0F70007247B /* RulsePopup.swift */; };
+		A572426F2A0BDBF00007247B /* RoundedCornersShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A572426E2A0BDBF00007247B /* RoundedCornersShape.swift */; };
+		A58D96BD2A0D13DA007E44D8 /* URLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58D96BC2A0D13DA007E44D8 /* URLManager.swift */; };
 		A5DBCE2C2A091639005EC15B /* TouchMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DBCE2B2A091639005EC15B /* TouchMeApp.swift */; };
 		A5DBCE2E2A091639005EC15B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DBCE2D2A091639005EC15B /* ContentView.swift */; };
 		A5DBCE302A09163A005EC15B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DBCE2F2A09163A005EC15B /* Assets.xcassets */; };
 		A5DBCE332A09163A005EC15B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DBCE322A09163A005EC15B /* Preview Assets.xcassets */; };
+		A5DBCE3A2A091651005EC15B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DBCE392A091651005EC15B /* WebView.swift */; };
+		A5DBCE3C2A09197D005EC15B /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DBCE3B2A09197D005EC15B /* GameView.swift */; };
+		A5DBCE3F2A09248D005EC15B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DBCE3E2A09248D005EC15B /* Game.swift */; };
+		A5DBCE412A092F62005EC15B /* TouchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DBCE402A092F62005EC15B /* TouchGame.swift */; };
+		A5DBCE442A094800005EC15B /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DBCE432A094800005EC15B /* TimerViewModel.swift */; };
+		A5FFECC62A0AF54400297EE6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FFECC52A0AF54400297EE6 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A52988BE2A0D2BF1009B80E7 /* UserStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatus.swift; sourceTree = "<group>"; };
+		A52988C02A0D4BF7009B80E7 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		A57242672A0BBF360007247B /* OverlayModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayModifier.swift; sourceTree = "<group>"; };
+		A572426A2A0BC93F0007247B /* BottomPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomPopupView.swift; sourceTree = "<group>"; };
+		A572426C2A0BD0F70007247B /* RulsePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulsePopup.swift; sourceTree = "<group>"; };
+		A572426E2A0BDBF00007247B /* RoundedCornersShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersShape.swift; sourceTree = "<group>"; };
+		A58D96BC2A0D13DA007E44D8 /* URLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLManager.swift; sourceTree = "<group>"; };
 		A5DBCE282A091639005EC15B /* TouchMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DBCE2B2A091639005EC15B /* TouchMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchMeApp.swift; sourceTree = "<group>"; };
 		A5DBCE2D2A091639005EC15B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5DBCE2F2A09163A005EC15B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5DBCE322A09163A005EC15B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5DBCE392A091651005EC15B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		A5DBCE3B2A09197D005EC15B /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		A5DBCE3E2A09248D005EC15B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A5DBCE402A092F62005EC15B /* TouchGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchGame.swift; sourceTree = "<group>"; };
+		A5DBCE432A094800005EC15B /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		A5FFECC52A0AF54400297EE6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +58,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A57242662A0BBF0E0007247B /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				A57242672A0BBF360007247B /* OverlayModifier.swift */,
+				A572426E2A0BDBF00007247B /* RoundedCornersShape.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		A57242692A0BC9010007247B /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				A572426A2A0BC93F0007247B /* BottomPopupView.swift */,
+				A572426C2A0BD0F70007247B /* RulsePopup.swift */,
+			);
+			path = Popups;
+			sourceTree = "<group>";
+		};
+		A58D96BB2A0D13B9007E44D8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A58D96BC2A0D13DA007E44D8 /* URLManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		A5DBCE1F2A091639005EC15B = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +103,16 @@
 		A5DBCE2A2A091639005EC15B /* TouchMe */ = {
 			isa = PBXGroup;
 			children = (
+				A58D96BB2A0D13B9007E44D8 /* Managers */,
+				A57242692A0BC9010007247B /* Popups */,
+				A57242662A0BBF0E0007247B /* Modifiers */,
+				A5FFECC42A0AF53500297EE6 /* Constants */,
+				A5FFECC32A0AF32B00297EE6 /* Web */,
+				A5DBCE422A09478B005EC15B /* Timer */,
+				A5DBCE3D2A091ADB005EC15B /* Game */,
 				A5DBCE2B2A091639005EC15B /* TouchMeApp.swift */,
 				A5DBCE2D2A091639005EC15B /* ContentView.swift */,
+				A52988BE2A0D2BF1009B80E7 /* UserStatus.swift */,
 				A5DBCE2F2A09163A005EC15B /* Assets.xcassets */,
 				A5DBCE312A09163A005EC15B /* Preview Content */,
 			);
@@ -65,6 +125,41 @@
 				A5DBCE322A09163A005EC15B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5DBCE3D2A091ADB005EC15B /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				A5DBCE3B2A09197D005EC15B /* GameView.swift */,
+				A5DBCE3E2A09248D005EC15B /* Game.swift */,
+				A5DBCE402A092F62005EC15B /* TouchGame.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		A5DBCE422A09478B005EC15B /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				A5DBCE432A094800005EC15B /* TimerViewModel.swift */,
+				A52988C02A0D4BF7009B80E7 /* TimerView.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		A5FFECC32A0AF32B00297EE6 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				A5DBCE392A091651005EC15B /* WebView.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		A5FFECC42A0AF53500297EE6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A5FFECC52A0AF54400297EE6 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +232,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DBCE442A094800005EC15B /* TimerViewModel.swift in Sources */,
+				A52988BF2A0D2BF1009B80E7 /* UserStatus.swift in Sources */,
+				A5DBCE3A2A091651005EC15B /* WebView.swift in Sources */,
+				A572426F2A0BDBF00007247B /* RoundedCornersShape.swift in Sources */,
+				A58D96BD2A0D13DA007E44D8 /* URLManager.swift in Sources */,
+				A572426B2A0BC93F0007247B /* BottomPopupView.swift in Sources */,
+				A52988C12A0D4BF7009B80E7 /* TimerView.swift in Sources */,
+				A5DBCE3F2A09248D005EC15B /* Game.swift in Sources */,
+				A57242682A0BBF360007247B /* OverlayModifier.swift in Sources */,
 				A5DBCE2E2A091639005EC15B /* ContentView.swift in Sources */,
+				A5DBCE3C2A09197D005EC15B /* GameView.swift in Sources */,
 				A5DBCE2C2A091639005EC15B /* TouchMeApp.swift in Sources */,
+				A5DBCE412A092F62005EC15B /* TouchGame.swift in Sources */,
+				A572426D2A0BD0F70007247B /* RulsePopup.swift in Sources */,
+				A5FFECC62A0AF54400297EE6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

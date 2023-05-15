@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct TouchMeApp: App {
+    @StateObject var touchGame = TouchGame()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(touchGame)
         }
     }
 }

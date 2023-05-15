@@ -8,14 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var urlManager = URLManager()
+    @EnvironmentObject var touchGame: TouchGame
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            if let response = urlManager.response, let userStatus = touchGame.userStatus {
+                WebViewWithNavigation(response: response, status: userStatus)
+                    .environmentObject(urlManager)
+                    .environmentObject(touchGame)
+            } else {
+                if !touchGame.isStarted && touchGame.userStatus != nil {
+                    ProgressView()
+                        .task {
+                            do {
+                                try await urlManager.getPlayerStatuses()
+                            } catch {
+                                print("Error is: \(error.localizedDescription)")
+                            }
+                        }
+                } else {
+                    GameView()
+                        .environmentObject(touchGame)
+                }
+            }
         }
-        .padding()
     }
 }
 
